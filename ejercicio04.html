@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <div class="badge badge-primary text-wrap" style="width: 6rem;">
+        Ejercicio 04
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-6">
+                <p>a. Calculadora Simple</p>
+                <div>
+                    <div class="form-group">
+                        <label for="n1">Numero 1</label>
+                        <input type="text" class="form-control" id="n1" value="0">
+                    </div>
+                    <div class="form-group">
+                        <label for="n2">Numero 2</label>
+                        <input type="text" class="form-control" id="n2" value="0">
+                    </div>
+                    <button onclick="suma()" class="btn btn-danger">Sumar</button>
+                    <button onclick="resta()" class="btn btn-primary">Restar</button>
+                    <button onclick="multiplicacion()" class="btn btn-dark">Multiplicar</button>
+                    <button onclick="division()" class="btn btn-success">Dividir</button>
+                    <div class="form-group">
+                        <label for="resp">Respuesta</label>
+                        <input type="text" class="form-control" id="resp" value="0">
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <p>b. Calculadora Romana</p>
+                <div>
+                    <div class="form-group">
+                        <label for="r1">Romano 1</label>
+                        <input type="text" class="form-control" id="r1" value="-">
+                    </div>
+                    <div class="form-group">
+                        <label for="r2">Romano 2</label>
+                        <input type="text" class="form-control" id="r2" value="-">
+                    </div>
+                    <button onclick="operacion(1)" class="btn btn-outline-danger">Sumar</button>
+                    <button onclick="operacion(2)" class="btn btn-outline-primary">Restar</button>
+                    <button onclick="operacion(3)" class="btn btn-outline-dark">Multiplicar</button>
+                    <button onclick="operacion(4)" class="btn btn-outline-success">Dividir</button>
+                    <div class="form-group">
+                        <label for="resp">Respuesta</label>
+                        <input type="text" class="form-control" id="respR" value="-">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/ejercicio04.js"></script>
+</body>
+</html>

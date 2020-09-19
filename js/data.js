@@ -1,0 +1,22 @@
+var formula1=[
+	{piloto:"Lewis Hamilton",numero:44, escuderia:"Mercedes",titulos:6, nacionalidad:"Ingles"},
+	{piloto:"Valteri Botas",numero:77, escuderia:"Mercedes",titulos:0, nacionalidad:"Finlandes"},
+	{piloto:"Max Verstapen",numero:33, escuderia:"Red Bull",titulos:0, nacionalidad:"Holandes"},
+	{piloto:"Alex Albon",numero:23, escuderia:"Red Bull",titulos:0, nacionalidad:"Tailandes"},
+	{piloto:"Sebastian Vettel",numero:5, escuderia:"Ferrari",titulos:3, nacionalidad:"Aleman"},
+	{piloto:"Charles Leclerc",numero:16, escuderia:"Ferrari",titulos:0, nacionalidad:"Monegasco"},
+	{piloto:"Lance Stroll",numero:18, escuderia:"Racing Point",titulos:0,nacionalidad:"Canadiense"},
+	{piloto:"Nico Hulkenberg",numero:27, escuderia:"Racing Point",titulos:0, nacionalidad:"Aleman"},
+	{piloto:"Esteban Ocon",numero:31, escuderia:"Renault",titulos:0,nacionalidad:"Frances"},
+	{piloto:"Daniel Ricciardo",numero:3, escuderia:"Renault",titulos:0,nacionalidad:"Autraliano"},
+	{piloto:"Lando Norris",numero:4, escuderia:"McLaren",titulos:0,nacionalidad:"Ingles"},
+	{piloto:"Carlos Sainz Jr.",numero:55, escuderia:"McLaren",titulos:0,nacionalidad:"Español"},
+	{piloto:"Kimi Raikkonen",numero:7, escuderia:"Alpha Romeo",titulos:1,nacionalidad:"Finlandes"},
+	{piloto:"Antonio Giovinazzi",numero:99, escuderia:"Alpha Romeo",titulos:0,nacionalidad:"Italiano"},
+	{piloto:"George Russell",numero:63, escuderia:"Williams",titulos:0,nacionalidad:"Ingles"},
+	{piloto:"Nicholas Latifi",numero:6, escuderia:"Williams",titulos:0,nacionalidad:"Canadiense"},
+	{piloto:"Kevin Magnussen",numero:20, escuderia:"Haas",titulos:0,nacionalidad:"Danes"},
+	{piloto:"Romain Grosjean",numero:8, escuderia:"Haas",titulos:0,nacionalidad:"Frances"},
+	{piloto:"Daniel Kvyat",numero:26, escuderia:"Alpha Tauri",titulos:0,nacionalidad:"Ruso"},
+	{piloto:"Pierre Gastly",numero:10, escuderia:"Alpha Tauri",titulos:0,nacionalidad:"Frances"}
+];

@@ -1,0 +1,55 @@
+#d1{
+    margin-left: 140px;
+    background-color: gray;
+    border-style: solid;
+    width: 150px;
+    height: 150px;
+}
+.rojo{
+    background-color: red;
+    padding: 15px;
+    width: 70px;
+    margin: 5px;
+}
+.azul{
+    background-color: blue;
+    padding: 15px;
+    width: 70px;
+    margin: 5px;
+}
+.verde{
+    background-color: green;
+    padding: 15px;
+    width: 70px;
+    margin: 5px;
+}
+.amarillo{
+    background-color: yellow;
+    padding: 15px;
+    width: 70px;
+    margin: 5px;
+}
+.negro{
+    background-color: orange;
+    padding: 15px;
+    width: 70px;
+    margin: 5px;	
+}
+.blanco{
+    background-color: white;
+    padding: 15px;
+    width: 70px;
+    margin: 5px;
+}
+.violeta{
+    background-color: violet;
+    padding: 15px;
+    width: 70px;
+    margin: 5px;
+}
+.rosado{
+    background-color: pink;
+    padding: 15px;
+    width: 70px;
+    margin: 5px;
+}

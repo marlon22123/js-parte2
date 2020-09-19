@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body onload="addOnClick()">
+    <div class="badge badge-success text-wrap" style="width: 6rem;">
+        Ejercicio 05
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-6">
+                <p>a. Añadiendo onclick a los botones X para cerrar los Divs</p>
+                <div>
+                    <div class="alert alert-success" role="alert">
+                        Este mensaje desaparecerá...al cliquear en el botón
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                    </div>
+                    <div class="alert alert-warning" role="alert">
+                        Este mensaje desaparecerá...al cliquear en el botón
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                    </div>
+                    <div class="alert alert-primary" role="alert">
+                        Este mensaje desaparecerá...al cliquear en el botón
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                    </div>
+                    <div class="alert alert-secondary" role="alert">
+                        Este mensaje desaparecerá...al cliquear en el botón
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <p>b. Añadiendo onclick a botones</p>
+                <div class="row">
+                    <div class="card col" style="width: 14rem;">
+                        <img src="imagen/puno/puno1.jpg" class="card-img-top" alt="Uros">
+                        <div class="card-body">
+                          <h5 class="card-title">Uros</h5>
+                          <p class="card-text">Islas construidas con totora en el lago Titicaca</p>
+                          <a href="#" class="btn btn-primary">Visitar</a>
+                        </div>
+                    </div>
+                    <div class="card col" style="width: 14rem;">
+                        <img src="imagen/puno/puno2.jpg" class="card-img-top" alt="Taquile">
+                        <div class="card-body">
+                          <h5 class="card-title">Taquile</h5>
+                          <p class="card-text">Isla más grande del lago Titicaca del lado peruano.</p>
+                          <a href="#" class="btn btn-primary">Visitar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="btn-group" role="group" aria-label="Basic example">
+                    <button id="uros" class="btn btn-outline-secondary" data="0">Uros: 0</button>
+                    <button id="taquile" class="btn btn-outline-secondary" data="0">Taquile: 0</button>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-6">
+                <p>c. ¡Añadiendo Alerts Bootstrap!</p>
+                <button onclick="danger()" class="btn btn-danger">Danger</button>
+                <button onclick="success()" class="btn btn-success">Success</button>
+                <button onclick="warning()" class="btn btn-warning">Warning</button>
+                <div id="d1">
+
+                </div>
+            </div>
+
+            <div class="col-6">
+                <p>d. Mostrando tarjetas</p>
+                <button onclick="libro()" class="btn btn-outline-info">Libros</button>
+                <button onclick="pelicula()" class="btn btn-outline-info">Peliculas</button>
+                <button onclick="musica()" class="btn btn-outline-info">Musica</button>
+                <div class="card" style="width: 18rem;">
+                    <div class="card-header" id="t1">
+                      Feature
+                    </div>
+                    <ul class="list-group list-group-flush" id="t2">
+                        
+                
+                    </ul>
+                  </div>
+            </div>
+        </div>
+    </div>
+<script src="js/ejercicio05.js"></script>
+</body>
+</html>

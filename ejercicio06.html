@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <div class="badge badge-success text-wrap" style="width: 6rem;">
+        Ejercicio 06
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-6">
+                <p>a. Lista desplegable</p>
+                <button onclick="añadirP()" class="btn btn-danger">Provincias Puno</button>
+                <button onclick="añadirC()" class="btn btn-warning">Provincias Cusco</button>
+                <div>
+                    <select class="custom-select" id="s1"> 
+                    </select>
+                </div>
+            </div>
+            <div class="col-6">
+
+
+
+                <p>b. Lista desplegable responde a un click</p>
+                <div>
+                    <p>Seleccione una opción y vea la imagen</p>
+                    <select class="custom-select" id="s2" onclick="cambiar()">
+                        <option value="0">Uros</option>
+                        <option value="1">Taquile</option>
+                        <option value="2">Amantani</option>
+                    </select>
+                    
+                    <div><img src="imagen/puno/puno1.jpg" alt="Puno" width="300" height="200" id="m1"></div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-6">
+
+
+                <p>c. Lista y Lista</p>
+                <div>
+                    <label for="">Departamento:</label>
+                    <select class="custom-select" id="s3" onclick="agregar()" >
+                        <option value="0">Puno</option>
+                        <option value="1">Cusco</option>
+                        <option value="2">Tacna</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="">Provincia:</label>
+                    <select class="custom-select" id="s4">
+
+
+                    </select>
+                </div>
+            </div>
+            <div class="col-6">
+                <p>d. Listas de la F1</p>
+                <div>
+                    <div class="form-check form-check-inline">
+                        <input onclick="pilotoC()" class="form-check-input" type="radio" name="opt" id="r1">
+                        <label  class="form-check-label" for="r1">Pilotos</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input onclick="escuderiaC()" class="form-check-input" type="radio" name="opt" id="r2">
+                        <label class="form-check-label" for="r2">Escuderias</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input onclick="nacionalidadC()" class="form-check-input" type="radio" name="opt" id="r3">
+                        <label class="form-check-label" for="r3">Nacionalidades</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input onclick="campeonC()" class="form-check-input" type="radio" name="opt" id="r4">
+                        <label class="form-check-label" for="r4">Campeones</label>
+                    </div>
+                </div>
+                <div>
+                    <select id="s5" class="custom-select">  
+
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/data.js"></script>
+    <script src="js/ejercicio06.js"></script>
+</div>
+</body>
+</html>
